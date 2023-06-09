@@ -1,0 +1,23 @@
+Topics:
+    Lists
+    Dictionaries
+    Functions
+
+Encapsulation
+    - is a mechanism of wrapping the attributes and code acting on the methods together as a single unit
+    - in encapsulation, the attributes of a class will be hidden from other classes and can be accessed only through the methods of their current class. Therefore, it is also known as 'data hiding'.
+
+Benefits:
+    1. Simplified complexity
+    2. Protect data
+
+Access modifiers
+    - are used to restrit access to the attributes and methods of class
+
+    -- Three commonly used access modifiers are:
+        - Public (+)
+            - public attributes and methods are accessible from anywhere, both within the class and from outside the class
+        - Protected(#)
+            - protected attributes and methods are intended to be used within the class and its subclasses. They can be assessed from outside the class, but it is considered a convention to treat them as non-public and accessed only by convention.
+        - Private (_)
+            - private attributes and methods are meant to be accessed only within the class. They are accessible from outside the class, including the class
